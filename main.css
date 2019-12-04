@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(131, 25, 25, 0.87);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-weight: bold;
+    margin-left: 2vh;
+    margin-right: 0vh;
+    color: black
+
+}
+.title{
+    position: absolute;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    left: 69vh;
+    background-color: rgb(223, 200, 98);
+    border: black;
+    padding: 2vh;
+    height: 20vh;
+}
+
+#diceImage{
+    position: absolute;
+    padding: 10vh;
+    background-color: rgb(241, 196, 97);
+    top: 30vh;
+    left: 35%;
+
+}
+/* h1 */
+.playerInfoOne{
+    float: left;
+    padding: 10vh;
+    position: absolute;
+    top:5vh;
+    height: 5vh;
+    
+}
+/* h1 */
+.playerInfoTwo{
+    padding: 10vh;
+    position: absolute;
+    left: 140vh;
+    top: 6vh;
+}
+/* h2 */
+.playerScoreOne{
+    position: absolute;
+    background-color: rgb(231, 183, 49);;
+    height: 100vh;
+    top: 32vh;
+    width: 50vh;
+    padding: 2vh;
+    padding-top: 3vh s;
+
+   
+}
+/* h2 */
+.playerScoreTwo{
+    position: absolute;
+    left: 135vh;
+    top: 32vh;
+    background-color: rgb(231, 183, 49) ;
+    height: 100vh;
+    width: 50vh;
+    padding: 2vh;
+}
+/* button */
+.playerOne {
+    position: absolute;
+    top: 90vh;
+    left: 17vh;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+/* button */
+.playerTwo {
+    float: right;
+    margin-left: 5vh;
+    margin-right: 5vh;;
+    position: absolute;
+    top: 90vh;
+    left: 145vh;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+ 
+}
+
+/* button */
+.restart {
+    position: absolute;
+    top:90vh;
+    left: 85vh;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+/* button */
+.newGame {
+    position: absolute;
+    top: 85vh; 
+    left: 80vh;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
